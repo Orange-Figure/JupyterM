@@ -5,4 +5,4 @@ EXPOSE 80
 # Set the environment variable for screen resolution
 ENV RESOLUTION 1707×1067
 # Start the command to run NOVNC
-CMD ["supervisord", "-c", */etc/supervisor/supervisord.conf"]
+CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf"]
